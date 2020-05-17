@@ -1,0 +1,36 @@
+.logo{
+	height: 80px;
+}
+
+.pchVector{
+	height: 400px;
+}
+
+.icono{
+	height: 30px;
+}
+
+.btnUva{
+    background-color:#bd6597;
+    border-color: #bd6597;
+    color:#ffffff;
+    font-weight: bold;
+}
+.btnBlank{
+    background-color:#ffffff;
+    border-color: #bd6597;
+    color:#bd6597;
+    font-weight: bold;
+}
+.nav{
+    color:#bd6597;
+
+}
+.index{
+    background-color:#bd6597;
+    color:#FCDBC3;
+	letter-spacing: 10px;
+    font-size: 24px;
+    font-family: ;
+}
+

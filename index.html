@@ -3,87 +3,118 @@
 	<head>
 		<meta charset="UTF-8">
         <title>Constanza Luz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel= "stylesheet" href= "css/bootstrap.min.css">
+        <link rel= "stylesheet" href= "css/estilos.css">
+        <!-- <a href="https://www.freepik.es/fotos-vectores-gratis/personas">En esta página se utilizaron y modificaron los 
+            vectores con ilustraciones de personas creados por pch.vector - www.freepik.es</a> -->
     </head>
 	<body>
-        <header>
-            <figure>
-                <img src="img/logo.jpg" alt="Constanza Luz">
-            </figure>
-            <nav>
-                <ul>
-                    <li><a href="html/sobre_mi.html">Sobre Mi</a></li>
-                    <li><a href="html/escuela_online.html">Escuela Online</a></li>
-                    <li><a href="html/tienda.html">Tienda</a></li>
-                    <li><a href="html/novedades.html">Novedades</a></li>
-                    <li><a href="html/eventos.html">Eventos</a></li>
-                </ul>
-                <div>
-                    <a href="html/cursos/curso_asesoramiento.html">Curso</a>
-                </div>
-            </nav>
-            <h1>Asesoramiento de Imagen & Comunicación</h1>
+        <header class="container">
+            <div class="row">
+                <figure class ="col-lg-4">
+                    <img src="img/logo.jpg" alt="Constanza Luz" class="logo">
+                </figure>
+                <nav class ="nav col-lg-8">
+                    <ul>
+                        <li><a href="html/sobre_mi.html">Sobre Mi</a></li>
+                        <li><a href="html/escuela_online.html">Escuela Online</a></li>
+                        <li><a href="html/tienda.html">Tienda</a></li>
+                        <li><a href="html/novedades.html">Novedades</a></li>
+                        <li><a href="html/eventos.html">Eventos</a></li>
+                    </ul>
+                    <button class="btn btn-primary btnBlank" href="html/cursos/curso_asesoramiento.html">Curso</button>
+                </nav>
+            </div>
+            <div class="row col-xs-12">
+                <h1 class="index">Asesoramiento de Imagen & Comunicación</h1>
+            </div>
         </header>
-        <main>
-            <section>
-                <h1>¿Lorem ipsum dolor sit amet, consectetur?</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </section>
-            <figure>
-                <img src="img/compras.jpg" alt="Mujeres eligiendo ropa">
-            </figure>
-            <section>
+        <div class="container">
+            <main>
+                <div class="main row">
+                    <section class= "col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h1>¿Lorem ipsum dolor sit amet, consectetur?</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </section>
+                    <figure class= "col-xs-12 col-sm-12 col-md-6 col-lg-6"">
+                        <img src="img/compras.jpg" alt="Mujeres eligiendo ropa" class="pchVector">
+                    </figure>
+                </div> 
+                <div class= "row">
+                    <section class= "col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <img src="img/linea_de_puntos.jpg">
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                    </section>
+                    <section class= "col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <img src="img/linea_de_puntos.jpg">
+                    </section>
+                </div>
+                <aside class= "row col-xs-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </aside>
+                <div class= "row">
+                    <figure class= "col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <img src="img/placard.jpg" alt="Mujer mirando la ropa de su placard" class="pchVector">
+                    </figure>
+                    <section class= "col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h2>¿Lorem ipsum dolor sit amet, consectetur?</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <button class="btn btn-primary btnUva" href="cursos/curso_asesoramiento.html" >Tomar Curso</button>
+                    </section>
+                </div>
+                <aside class= "row col-xs-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="btn btn-primary btnBlank">Recibir Newsletter</button>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </aside>
+                <div class= "row">
+                    <section class= "col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <img src="img/linea_de_puntos.jpg">
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <button class="btn btn-primary btnUva" href="cursos/curso_oratoria.html">Tomar Curso</button>
+                    </section>
+                    <figure class= "col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <img src="img/oratoria.jpg" alt="Mujeres comunicandose" class="pchVector">
+                    </figure>
+                </div>
+                <aside class= "row col-xs-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </aside>
+            </main>
+        </div>
+        <footer class="container">
+            <figure class= "row col-xs-12">
                 <img src="img/linea_de_puntos.jpg">
-                <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-            </section>
-            <section>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img src="img/linea_de_puntos.jpg">
-            </section>
-            <aside>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </aside>
-            <figure>
-                <img src="img/placard.jpg" alt="Mujer mirando la ropa de su placard">
             </figure>
-            <section>
-                <h2>¿Lorem ipsum dolor sit amet, consectetur?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="cursos/curso_asesoramiento.html">Tomar Curso</a>
-            </section>
-            <aside>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a>Recibir Newsletter</a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </aside>
-            <section>
-                <img src="img/linea_de_puntos.jpg">
-                <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="cursos/curso_oratoria.html">Tomar Curso</a>
-            </section>
-            <figure>
-                <img src="img/oratoria.jpg" alt="Mujeres comunicandose">
-            </figure>
-            <aside>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </aside>
-        </main>
-        <footer>
-            <figure>
-                <img src="img/logo.jpg" alt="Constanza Luz">
-            </figure>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Contacto</li>
-                    <li>Tienda</li>
-                </ul>
-            </nav>
-            <a href="https://www.facebook.com/ConstanzaLuzAsesoramiento/"><img src="img/facebook.jpg" alt="Enlace a Facebook"></a>
-            <a href="https://www.instagram.com/constanzaluz_asesoramiento/"><img src="img/instagram.jpg"alt="Enlace a Instagram"></a>
-            <a href="https://www.linkedin.com/in/constanza-bornancini-1281b257/"><img src="img/linkedin.jpg" alt="Enlace a Linkedin"></a>
-        </footer>
+            <div class="row">
+                <figure class= "row col-xs-3">
+                    <img src="img/logo.jpg" alt="Constanza Luz" class="logo">
+                </figure>
+                <nav class= "col-xs-6">
+                    <ul>
+                        <li>Home</li>
+                        <li>Contacto</li>
+                        <li>Tienda</li>
+                    </ul>
+                </nav>
+                <div class= "col-xs-3">
+                    <a href="https://www.facebook.com/ConstanzaLuzAsesoramiento/">
+                        <img src="img/facebook.jpg" alt="Enlace a Facebook" class="icono"></a>
+                    <a href="https://www.instagram.com/constanzaluz_asesoramiento/">
+                        <img src="img/instagram.jpg"alt="Enlace a Instagram" class="icono"></a>
+                    <a href="https://www.linkedin.com/in/constanza-bornancini-1281b257/">
+                        <img src="img/linkedin.jpg" alt="Enlace a Linkedin" class="icono"></a>
+                </div>
+            </div>
+            </footer>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
