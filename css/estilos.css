@@ -3,7 +3,7 @@
 }
 
 .pchVector{
-	height: 400px;
+	height: 380px;
 }
 
 .icono{
@@ -22,15 +22,21 @@
     color:#bd6597;
     font-weight: bold;
 }
-.nav{
-    color:#bd6597;
 
-}
 .index{
     background-color:#bd6597;
-    color:#FCDBC3;
+    height: 40px;
+}
+.titulo{
+    color:rgb(255, 255, 255);
 	letter-spacing: 10px;
-    font-size: 24px;
-    font-family: ;
+    font-size: 20px;
+    height: 20px;
 }
 
+.nav{
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color:rgb(255, 255, 255);
+}
